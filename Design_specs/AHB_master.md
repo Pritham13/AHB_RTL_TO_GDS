@@ -35,7 +35,7 @@ module ahb_master (
 );
 ```
 ## Block Diagram 
-![block diagram image](../imgs/block_diagram.png)
+![block diagram image](../imgs/AHB_master_block_diagram.png)
 
 ## Signal Descriptions
 
