@@ -34,6 +34,8 @@ module ahb_master (
     output reg         HLOCK
 );
 ```
+## Block Diagram 
+![block diagram image](../imgs/block_diagram.png)
 
 ## Signal Descriptions
 
@@ -165,3 +167,8 @@ module ahb_master (
 7. For burst transfers, the master continues to drive subsequent addresses and data until the burst is complete.
 8. The master can use `HMASTLOCK` and `HLOCK` to indicate and request locked sequences of transfers.
 
+
+## References
+
+1. AMBA Specification 2.0
+2. Multimedia Architecture and Processing Laboratory. "Introduction to AMBA AHB." Lecture by Prof. Wen-Hsiao Peng, 2007 Spring Term. Lecture 10
