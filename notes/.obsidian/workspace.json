@@ -18,6 +18,49 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "173951045078e164",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f30df57d34b4357",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design_specs/AHB_subbordinate.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "9533f6f57b72cf1e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c808ef7c65a1b6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design_specs/AHB_manager.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -80,35 +123,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7c9bfb51501aeae7",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "notes.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "2c233761709fa21d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "notes.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "3c6053319b660748",
             "type": "leaf",
             "state": {
@@ -118,22 +132,12 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "59a34271dbe1cad1",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "notes.md"
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -143,13 +147,20 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f1ac819e50e46a12",
+  "active": "1c808ef7c65a1b6f",
   "lastOpenFiles": [
-    "imgs/Pasted image 20240929181925.png",
     "notes.md",
+    "Design_specs/AHB_manager.md",
+    "Test stages.md",
+    "Design_specs/AHB_subbordinate.md",
+    "Doubts.md",
+    "Doubts",
+    "Design_specs",
+    "imgs/Pasted image 20240929181925.png",
     "imgs"
   ]
 }
