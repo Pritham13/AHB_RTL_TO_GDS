@@ -1,0 +1,1 @@
+- [ ] how long will the manager wait for the subordinate to give the acknowledgement after sending the address in the address cycle
