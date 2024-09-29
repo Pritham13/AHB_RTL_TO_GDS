@@ -1,0 +1,1 @@
+- [ ]   32 bit read/write data transfer , non burst transfer
