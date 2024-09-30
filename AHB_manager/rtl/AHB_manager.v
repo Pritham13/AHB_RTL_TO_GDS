@@ -22,32 +22,36 @@ module AHB_manager (
   input          i_HGRANT,
   output reg     o_HLOCK
 ); 
-
+localparam ADDR_NUM = 3 ;
 localparam  s_addr ,
             s_data ;
 //////////////////// Registers //////////////////////
-reg [31:0] buffer ;
-
+reg [31:0] r_data_buffer ;
+reg [31:0] addr_mem [ADDR_NUM - 1 : 0] ;
+reg [3:0] r_ptr_addr ;
 
 //////////////////arbriter Request driver////////////// 
-
 always @(i_HCLK) begin 
-  if(!i_HGRANT)
+  if(!i_HGRANT)begin 
     o_HBUSREQ <= 1 ;
+    r_ptr_addr <= 0 ;
+  end 
   else 
-    o_HBUSREQ <= 0 ;
+    o_HBUSREQ <= 0 ; //NOTE: needs to be checked
 
 /////////////////////addr driving blocks///////////// 
 
 always @(i_HCLK) begin 
-  if (i_HREADY && i_HGRANT)
-    o_HADDR <= Slave_addr ;
+  if (i_HREADY && i_HGRANT) begin 
+    r_data_buffer <= i_HRDATA ; 
+    o_HADDR <= addr_mem[r_ptr_addr] ;
+    r_ptr_addr <= r_ptr_addr + 1 ;
+  end
 end
 
 ////////////////////data driving blocks///////////// 
 
 always @(i_HCLK) begin 
   if (i_HREADY && i_HGRANT)
-    o_HWDATA  <= i_HRDATA ;
-
+    o_HWDATA  <= r_data_buffer ;
 end
