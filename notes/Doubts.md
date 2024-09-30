@@ -3,3 +3,4 @@
 - [ ] On what basis is burst decided
 	-  would it be done on the basis of the amount of data available in the memory ?
 		-  check the memory for data if only one location is filled maybe go with SEQ , if multiple locations are filled go with NONSEQ ?
+- [ ] How are slave address determined is it encoded in the data?
