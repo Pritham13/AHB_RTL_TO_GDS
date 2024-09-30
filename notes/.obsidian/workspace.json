@@ -56,8 +56,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design_specs/AHB_manager.md",
-                "mode": "preview",
+                "file": "Doubts.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e11611701b7b27f0",
@@ -130,6 +131,45 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "93de8e6c9c6398aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Doubts.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "17f31b80bd098b10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Doubts.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "950110b61c1209f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Doubts.md"
               }
             }
           }
@@ -153,8 +193,8 @@
   },
   "active": "1c808ef7c65a1b6f",
   "lastOpenFiles": [
-    "notes.md",
     "Design_specs/AHB_manager.md",
+    "notes.md",
     "Test stages.md",
     "Design_specs/AHB_subbordinate.md",
     "Doubts.md",

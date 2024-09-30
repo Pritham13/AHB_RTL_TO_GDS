@@ -7,6 +7,7 @@
 > Note : starting stage 32 bit data transfer , non burst transfer
 ### FSM states 
 - Wait stage 
+	-  waits for `HPREADY` to go high
 -  Request state 
 	-  request to use the bus is sent to the arbiter i.e `HBUSREQ` is pulled to 1 
 	-  on receiving the usage of the bus i.e when `HGRANT` is pulled high we go on to the address sending stage 
@@ -18,3 +19,4 @@
 
 - Data transfer stage 
 	-  data is read or written 
+	-  `HRESP` is checked for the status and frames are resent in case of RETRY state 
