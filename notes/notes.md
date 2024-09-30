@@ -5,6 +5,8 @@
 ![[Pasted image 20240929181925.png]]
 
 > Note : starting stage 32 bit data transfer , non burst transfer
+
+The address of the next data will be sent in the data cycle of the previous data this way pipeline is achieved 
 ### FSM states 
 - Wait stage 
 	-  waits for `HPREADY` to go high
