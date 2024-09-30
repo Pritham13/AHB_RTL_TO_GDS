@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Doubts.md",
+                "file": "notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Doubts.md",
+                "file": "notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Doubts.md"
+                "file": "notes.md"
               }
             }
           }
@@ -191,13 +191,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c808ef7c65a1b6f",
+  "active": "173951045078e164",
   "lastOpenFiles": [
+    "Doubts.md",
     "Design_specs/AHB_manager.md",
     "notes.md",
     "Test stages.md",
     "Design_specs/AHB_subbordinate.md",
-    "Doubts.md",
     "Doubts",
     "Design_specs",
     "imgs/Pasted image 20240929181925.png",
