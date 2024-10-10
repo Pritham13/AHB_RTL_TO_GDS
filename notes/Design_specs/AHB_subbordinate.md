@@ -26,7 +26,8 @@ module ahb_slave (
 ```
 
 ## Block Diagram
-![AHB Slave block diagram](../imgs/AHB_slave_block_diagram.png)
+
+![](../imgs/Pasted%20image%2020241010231348.png)
 
 ## Signal Descriptions
 
