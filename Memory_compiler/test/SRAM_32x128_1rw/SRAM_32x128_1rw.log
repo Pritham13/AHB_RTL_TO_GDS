@@ -1,0 +1,62 @@
+[2024-10-11 21:57:39.056178] WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+
+[2024-10-11 21:57:39.056503] ERROR: file globals.py: line 316: Configuration file name is not a valid Python module name: SRAM_32x128_1rw-cfg. It should be a valid identifier.
+
+[2024-10-11 21:57:39.569287] |==============================================================================|
+[2024-10-11 21:57:39.569512] |=========                      OpenRAM v1.2.48                       =========|
+[2024-10-11 21:57:39.569594] |=========                                                            =========|
+[2024-10-11 21:57:39.569652] |=========               VLSI Design and Automation Lab               =========|
+[2024-10-11 21:57:39.569691] |=========        Computer Science and Engineering Department         =========|
+[2024-10-11 21:57:39.569739] |=========            University of California Santa Cruz             =========|
+[2024-10-11 21:57:39.569775] |=========                                                            =========|
+[2024-10-11 21:57:39.569811] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2024-10-11 21:57:39.569846] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2024-10-11 21:57:39.569912] |=========                See LICENSE for license info                =========|
+[2024-10-11 21:57:39.569946] |==============================================================================|
+[2024-10-11 21:57:39.569992] ** Start: 10/11/2024 21:57:39
+[2024-10-11 21:57:39.570033] Technology: freepdk45
+[2024-10-11 21:57:39.570087] Total size: 4096 bits
+[2024-10-11 21:57:39.570143] Word size: 32
+Words: 128
+Banks: 1
+[2024-10-11 21:57:39.570195] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2024-10-11 21:57:39.570243] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2024-10-11 21:57:39.570277] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2024-10-11 21:57:39.570313] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2024-10-11 21:57:39.570348] Words per row: 4
+[2024-10-11 21:57:39.570389] Output files are: 
+[2024-10-11 21:57:39.570466] /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.lvs
+[2024-10-11 21:57:39.570502] /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.sp
+[2024-10-11 21:57:39.570536] /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.v
+[2024-10-11 21:57:39.570569] /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.lib
+[2024-10-11 21:57:39.570602] /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.py
+[2024-10-11 21:57:39.570650] /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.html
+[2024-10-11 21:57:39.570697] /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.log
+[2024-10-11 21:57:39.570730] /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.lef
+[2024-10-11 21:57:39.570775] /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.gds
+[2024-10-11 21:57:47.695601] ** Submodules: 8.1 seconds
+[2024-10-11 21:57:47.720684] ** Placement: 0.0 seconds
+[2024-10-11 22:02:24.508847] ** Routing: 276.8 seconds
+[2024-10-11 22:02:24.516123] ** Verification: 0.0 seconds
+[2024-10-11 22:02:24.516216] ** SRAM creation: 284.9 seconds
+[2024-10-11 22:02:24.516271] SP: Writing to /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.sp
+[2024-10-11 22:02:24.612838] ** Spice writing: 0.1 seconds
+[2024-10-11 22:02:24.612949] DELAY: Writing stimulus...
+[2024-10-11 22:02:24.961289] ** DELAY: 0.3 seconds
+[2024-10-11 22:02:25.019985] GDS: Writing to /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.gds
+[2024-10-11 22:02:25.215426] ** GDS: 0.2 seconds
+[2024-10-11 22:02:25.215531] LEF: Writing to /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.lef
+[2024-10-11 22:02:25.227354] ** LEF: 0.0 seconds
+[2024-10-11 22:02:25.227429] LVS: Writing to /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.lvs.sp
+[2024-10-11 22:02:25.283415] ** LVS writing: 0.1 seconds
+[2024-10-11 22:02:25.283532] LIB: Characterizing... 
+[2024-10-11 22:02:26.905516] ** Characterization: 1.6 seconds
+[2024-10-11 22:02:26.905734] Config: Writing to /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.py
+[2024-10-11 22:02:26.905796] ** Config: 0.0 seconds
+[2024-10-11 22:02:26.910586] Datasheet: Writing to /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.html
+[2024-10-11 22:02:26.911647] ** Datasheet: 0.0 seconds
+[2024-10-11 22:02:26.911701] Verilog: Writing to /home/zero/OpenRAM/test/SRAM_32x128_1rw/SRAM_32x128_1rw.v
+[2024-10-11 22:02:26.911848] ** Verilog: 0.0 seconds
+[2024-10-11 22:02:26.912794] ** End: 287.3 seconds
