@@ -1,0 +1,70 @@
+[2024-10-11 22:33:47.041329] WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+
+[2024-10-11 22:33:47.041643] ERROR: file globals.py: line 316: Configuration file name is not a valid Python module name: SRAM_32x128_1r-cfg. It should be a valid identifier.
+
+[2024-10-11 22:33:47.544820] |==============================================================================|
+[2024-10-11 22:33:47.544954] |=========                      OpenRAM v1.2.48                       =========|
+[2024-10-11 22:33:47.545010] |=========                                                            =========|
+[2024-10-11 22:33:47.545054] |=========               VLSI Design and Automation Lab               =========|
+[2024-10-11 22:33:47.545095] |=========        Computer Science and Engineering Department         =========|
+[2024-10-11 22:33:47.545134] |=========            University of California Santa Cruz             =========|
+[2024-10-11 22:33:47.545172] |=========                                                            =========|
+[2024-10-11 22:33:47.545214] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2024-10-11 22:33:47.545252] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2024-10-11 22:33:47.545287] |=========                See LICENSE for license info                =========|
+[2024-10-11 22:33:47.545323] |==============================================================================|
+[2024-10-11 22:33:47.545368] ** Start: 10/11/2024 22:33:47
+[2024-10-11 22:33:47.545415] Technology: freepdk45
+[2024-10-11 22:33:47.545455] Total size: 8192 bits
+[2024-10-11 22:33:47.545512] Word size: 32
+Words: 256
+Banks: 1
+[2024-10-11 22:33:47.545552] RW ports: 0
+R-only ports: 1
+W-only ports: 1
+[2024-10-11 22:33:47.545590] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2024-10-11 22:33:47.545626] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2024-10-11 22:33:47.545662] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2024-10-11 22:33:47.545700] Words per row: 4
+[2024-10-11 22:33:47.545763] Output files are: 
+[2024-10-11 22:33:47.545818] /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.lvs
+[2024-10-11 22:33:47.545872] /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.sp
+[2024-10-11 22:33:47.545916] /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.v
+[2024-10-11 22:33:47.545953] /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.lib
+[2024-10-11 22:33:47.545989] /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.py
+[2024-10-11 22:33:47.546023] /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.html
+[2024-10-11 22:33:47.546058] /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.log
+[2024-10-11 22:33:47.546092] /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.lef
+[2024-10-11 22:33:47.546125] /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.gds
+[2024-10-11 22:34:15.484540] ** Submodules: 27.9 seconds
+[2024-10-11 22:34:15.510628] ** Placement: 0.0 seconds
+[2024-10-11 22:42:30.263660] ** Routing: 494.8 seconds
+[2024-10-11 22:42:30.271965] ** Verification: 0.0 seconds
+[2024-10-11 22:42:30.272068] ** SRAM creation: 522.7 seconds
+[2024-10-11 22:42:30.272138] SP: Writing to /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.sp
+[2024-10-11 22:42:30.445742] ** Spice writing: 0.2 seconds
+[2024-10-11 22:42:30.445837] DELAY: Writing stimulus...
+[2024-10-11 22:42:31.528191] ** DELAY: 1.1 seconds
+[2024-10-11 22:42:31.662701] GDS: Writing to /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.gds
+[2024-10-11 22:42:31.994294] ** GDS: 0.3 seconds
+[2024-10-11 22:42:31.994424] LEF: Writing to /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.lef
+[2024-10-11 22:42:32.009856] ** LEF: 0.0 seconds
+[2024-10-11 22:42:32.009927] LVS: Writing to /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.lvs.sp
+[2024-10-11 22:42:32.140940] ** LVS writing: 0.1 seconds
+[2024-10-11 22:42:32.141058] LIB: Characterizing... 
+[2024-10-11 22:42:32.180517] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2024-10-11 22:42:32.969521] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2024-10-11 22:42:33.763721] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2024-10-11 22:42:34.560259] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2024-10-11 22:42:35.352651] ** Characterization: 3.2 seconds
+[2024-10-11 22:42:35.352862] Config: Writing to /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.py
+[2024-10-11 22:42:35.352948] ** Config: 0.0 seconds
+[2024-10-11 22:42:35.353705] Datasheet: Writing to /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.html
+[2024-10-11 22:42:35.354898] ** Datasheet: 0.0 seconds
+[2024-10-11 22:42:35.354964] Verilog: Writing to /home/zero/Documents/active_git_repos/AHB/Memory_compiler/test_R_W/SRAM_32x128_1rw/SRAM_32x128_1rw.v
+[2024-10-11 22:42:35.355156] ** Verilog: 0.0 seconds
+[2024-10-11 22:42:35.357006] ** End: 527.8 seconds
