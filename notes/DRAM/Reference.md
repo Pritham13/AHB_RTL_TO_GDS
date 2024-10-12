@@ -1,4 +1,4 @@
 - [DDR4](https://www.systemverilog.io/design/ddr4-basics/)
 - [Memory management](https://cseweb.ucsd.edu/classes/su09/cse120/lectures/Lecture7.pdf)
-- [OpenRAM tutorial](https://cornell-ece5745.github.io/ece5745-S05-srams/)
-- 
+- [OpenRAM tutorial 1](https://cornell-ece5745.github.io/ece5745-S05-srams/)
+- [OpenRAM tutorial 2 - configuring with RTL](https://cornell-ece5745.github.io/ece5745-tut8-sram/)
